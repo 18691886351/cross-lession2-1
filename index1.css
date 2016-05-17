@@ -1,0 +1,67 @@
+/*
+display: flex; 将对象作为弹性伸缩盒显示。（伸缩盒最新版本）（CSS3）
+justify-content: center; X轴居中
+align-items: center;Y轴居中
+height:100vh; 自适应浏览器高度
+width: 100vw; 自适应浏览器宽度
+*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.top {
+    margin-bottom: 2px;
+    width: 99px;
+    height: 98px;
+    background-color: #2E6890;
+    box-shadow: 5px 5px 10px #aaaaaa;
+}
+
+.left {
+    width: 98px;
+    margin-right: 2px;
+    height: 100px;
+    background-color: #552973;
+    box-shadow: 5px 5px 10px #aaaaaa;
+}
+
+.mid {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 98px;
+    margin-left: 2px;
+    height: 100px;
+    background-color: #2D9830;
+    box-shadow: 5px 5px 10px #aaaaaa;
+}
+
+.bottom {
+    width: 99px;
+    height: 98px;
+    margin-top: 2px;
+    background-color: #8B1C2B;
+    box-shadow: 5px 5px 10px #aaaaaa;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
